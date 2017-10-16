@@ -1,0 +1,25 @@
+{
+    "name": "kaiwh/laravel-product",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaiwen",
+            "email": "test@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaiwh\\Product\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaiwh\\Product\\Providers\\ProductServiceProvider"
+            ]
+        }
+    }
+}
