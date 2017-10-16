@@ -9,6 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "kaiwh/laravel-currency": "~1.0"
     },
     "autoload": {
         "psr-4": {
